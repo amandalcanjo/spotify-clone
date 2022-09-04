@@ -14,3 +14,6 @@ Um projeto de clone front-end do site Spotify. O projeto foi criado usando compo
 
 ![Screenshot](https://user-images.githubusercontent.com/81193788/188322604-c31b7a7d-27ef-456a-8f8f-16ba4a7c3f04.jpg)
 
+### 👩 Autor: 
+Amanda Alcanjo<p>
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanda-alcanjo/)
