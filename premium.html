@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/animation.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<title>Spotify</title>
+		<link rel="icon" href="https://www.scdn.co/i/_global/favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+			rel="stylesheet"
+        />
+	</head>
+	<body>
+		<!--Header-->
+		<custom-header></custom-header>
+		<!--Header-->
+
+        <div class="premium-head">
+            <div class="container">
+                <h1>Mude para premium. Seja feliz.</h1>
+                <h2 class="title-2">O som do Premium é incrível. Curta músicas sem anúncios em todos os seus dispositivos.*</h2>
+                <a class="black_btn" href="#plans">VER PLANOS</a>
+                <p><small><a href="">*Termos e Condições</a> é válido.</small></p>
+            </div>
+        </div>
+
+        <div class="why-premium">
+            <div class="container">
+                <h2 class="title-1">Por que você deve atualizar para Premium?</h2>
+            </div>
+            <div class="container why-cards">
+                <why-card image="./assets/benefit_1.png"
+                          title="Baixar música."
+                          text="Ouça onde quiser.">
+                </why-card>
+                <why-card image="./assets/benefit_2.png"
+                          title="Sem interrupções de anúncios."
+                          text="Desfrute de música sem parar.">
+                </why-card>
+                <why-card image="./assets/benefit_3.png"
+                          title="Toque qualquer música que você quiser."
+                          text="Até no celular.">
+                </why-card>
+                <why-card image="./assets/benefit_4.png"
+                          title="Pular músicas ilimitadas."
+                          text="Basta apertar o próximo botão.">
+                </why-card>
+            </div>
+        </div>
+        
+        <div id="plans" class="premium-plans">
+            <div class="container plans-text">
+                <h2>Escolha seu prêmio</h2>
+                <p>Você pode ouvir o Spotify onde quiser, em qualquer dispositivo que desejar.</p>
+            </div>
+            <div class="container plans-container">
+                <pay-plan prepay="Planos pré-pagos disponíveis"
+                          name="Individual"
+                          price="17,99"
+                          account="1 conta"
+                          list-1="Ouça a música deles sem anúncios"
+                          list-2="Reproduza em qualquer lugar, até mesmo offline"
+                          list-3="Jogue quando quiser"
+                          list-4="Pague à vista ou inscreva-se"
+                          btntext="INICIAR"
+                          smalltesxt="*Aplicam-se termos e condições."
+                          active="false">
+                </pay-plan>
+                <pay-plan prepay=""
+                          name="Duo"
+                          price="23,99"
+                          account="2 contas"
+                          list-1="2 contas Premium para casais que vivem sob o mesmo teto"
+                          list-2="Duo Mix: uma playlist para dois, atualizada regularmente com músicas que vocês dois vão curtir"
+                          list-3="Ouvir música ininterrupta, reprodução offline, reprodução a qualquer momento"
+                          list-4=""
+                          btntext="INICIAR"
+                          smalltesxt="*Aplicam-se termos e condições."
+                          active="false">
+                </pay-plan>
+                <pay-plan prepay=""
+                          name="Família"
+                          price="26,99"
+                          account="Até 6 contas"
+                          list-1="6 contas Premium separadas para membros da família que vivem sob o mesmo teto"
+                          list-2="Family Mix: uma lista de reprodução para a sua família, atualizada regularmente com música para todos desfrutarem"
+                          list-3="Bloquear música sem censura"
+                          list-4="Ouvir música ininterrupta, reprodução offline, reprodução a qualquer momento"
+                          btntext="INICIAR"
+                          smalltesxt="*Aplicam-se termos e condições. Para famílias que residam no mesmo endereço."
+                          active="false">
+                </pay-plan>
+                <pay-plan prepay=""
+                          name="Universitário"
+                          price="8,99"
+                          account="1 conta"
+                          list-1="Desconto especial para estudantes universitários que podem se beneficiar"
+                          list-2="Ouça a música deles sem anúncios"
+                          list-3="Reproduza em qualquer lugar, até mesmo offline"
+                          list-4="Jogue quando quiser"
+                          btntext=""
+                          smalltesxt=""
+                          active="true">
+                </pay-plan>
+            </div>
+        </div>
+
+
+		<!--Footer-->
+		<custom-footer></custom-footer>
+		<!--Footer-->
+
+		<div id="opacity" class="opacity"></div>
+		<script src="./component/header.js"></script>
+        <script src="./component/footer.js"></script>
+        <script src="./component/whyCard.js"></script>
+        <script src="./component/payPlan.js"></script>
+        <script src="./js/main.js"></script>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            document.querySelector("header").style.backgroundColor = "transparent";
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.querySelector("header").style.backgroundColor = "rgba(0, 0, 0, 0.6)";
+                }else {
+                    document.querySelector("header").style.backgroundColor = "transparent";
+                }
+            }
+        </script>
+	</body>
+</html>
