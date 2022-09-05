@@ -1,8 +1,8 @@
 # Spotify Clone 🎵
-Um projeto de clone front-end do site Spotify. O projeto foi criado usando componentes básicos de css, js e web. Este é o meu primeiro grande projeto.
+Um projeto de clone front-end do site Spotify. O projeto foi criado usando componentes básicos de css, js e web. 
 
 ## Preview Link
-- [Spotify clone](https://oguz3-projects.web.app)
+- [Spotify clone](https://spotify-bymandy.netlify.app/)
 
 ## Tech/Framework Used
 * HTML
@@ -12,12 +12,8 @@ Um projeto de clone front-end do site Spotify. O projeto foi criado usando compo
 
 ## Layout 💗
 
-Homepage
+![Screenshot](https://user-images.githubusercontent.com/81193788/188322604-c31b7a7d-27ef-456a-8f8f-16ba4a7c3f04.jpg)
 
-![Screenshot](https://oguz3-projects.web.app/projects/spotify_ss/web.PNG)
-
-## Mobile UI
-
-Homepage
-
-![Screenshot](https://oguz3-projects.web.app/projects/spotify_ss/mobil.PNG)
+### 👩 Autor: 
+Amanda Alcanjo<p>
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanda-alcanjo/)
