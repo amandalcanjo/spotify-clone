@@ -27,7 +27,7 @@ class Header extends HTMLElement{
 								<a class="navigation-link" href="./premium.html">Premium</a>
 							</li>
 							<li>
-								<a class="navigation-link" href="./help.html">Ajuda</a>
+								<a class="navigation-link" href="./help.html">Suporte</a>
 							</li>
 							<li>
 								<a class="navigation-link" href="./download.html">Download</a>
@@ -83,7 +83,7 @@ class Header extends HTMLElement{
 							<a class="sidenav-link" href="./premium.html">Premium</a>
 						</li>
 						<li>
-							<a class="sidenav-link" href="./help.html">Ajuda</a>
+							<a class="sidenav-link" href="./help.html">Suporte</a>
 						</li>
 						<li>
 							<a class="sidenav-link" href="./download.html">Download</a>

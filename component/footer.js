@@ -25,31 +25,31 @@ class Footer extends HTMLElement{
 						<div class="fn-left">
 						<p>EMPRESA</p>
 						<div>
-						<a href="">Sobre</a>
+						<a href="https://www.spotify.com/br/about-us/contact/">Sobre</a>
 						</div>
 						<div>
-						<a href="">Trabalhos</a>
+						<a href="https://www.lifeatspotify.com/">Empregos</a>
 						</div>
 						<div>
-						<a href="">Para registro</a>
+						<a href="https://newsroom.spotify.com/">Para registro</a>
 						</div>
 						</div>
 						<div class="fn-mid">
 						<p>COMUNIDADES</p>
 						<div>
-						<a href="">Para artistas</a>
+						<a href="https://artists.spotify.com/home">Para artistas</a>
 						</div>
 						<div>
-						<a href="">Desenvolvedores</a>
+						<a href="https://developer.spotify.com/">Desenvolvedores</a>
 						</div>
 						<div>
-						<a href="">Anúncio</a>
+						<a href="https://ads.spotify.com/pt-BR/">Publicidade</a>
 						</div>
 						<div>
-						<a href="">Investidores</a>
+						<a href="https://investors.spotify.com/home/default.aspx">Investidores</a>
 						</div>
 						<div>
-						<a href="">Vendedores</a>
+						<a href="https://spotifyforvendors.com/">Fornecedores</a>
 						</div>
 						</div>
 						<div class="fn-right">
@@ -58,12 +58,11 @@ class Footer extends HTMLElement{
 						<a href="./help.html">Suporte</a>
 						</div>
 						<div>
-						<a href="">Reprodutor da Web</a>
+						<a href="https://open.spotify.com/">Reprodutor da Web</a>
 						</div>
 						<div>
-						<a href=""
-						>Aplicativo <br />
-						Grátis</a
+						<a href="https://www.spotify.com/br/free/"
+						>Aplicativo móvel grátis</a
 						>
 							</div>
 						</div>
@@ -71,35 +70,35 @@ class Footer extends HTMLElement{
 					<div class="social">
 						<ul>
 							<li>
-								<a href=""><span class="insta"></span></a>
+								<a href="https://www.instagram.com/spotify/"><span class="insta"></span></a>
 							</li>
 							<li class="center">
-								<a href=""><span class="twitter"></span></a>
+								<a href="https://twitter.com/spotify"><span class="twitter"></span></a>
 							</li>
 							<li>
-								<a href=""><span class="face"></span></a>
+								<a href="https://www.facebook.com/SpotifyBrasil/?brand_redir=6243987495"><span class="face"></span></a>
 							</li>
 						</ul>
 					</div>
 					<div class="footer_bot">
 						<ul class="">
 							<li class="">
-							<a href="" class="">Legal</a>
+							<a href="https://www.spotify.com/br/legal/end-user-agreement/" class="">Legal</a>
 							</li>
 							<li classe="">
-							<a href="" class="">Centro de privacidade</a>
+							<a href="https://www.spotify.com/br/privacy" class="">Centro de privacidade</a>
 							</li>
 							<li classe="">
-							<a href="" class="">Política de privacidade</a>
+							<a href="https://www.spotify.com/br/legal/privacy-policy/" class="">Política de privacidade</a>
 							</li>
 							<li classe="">
-							<a href="" class="">Cookies</a>
+							<a href="https://www.spotify.com/br/legal/cookies-policy/" class="">Cookies</a>
 							</li>
 							<li classe="">
-							<a href="" class="">Sobre anúncios</a>
+							<a href="https://www.spotify.com/br/legal/privacy-policy/#s3" class="">Sobre anúncios</a>
 							</li>
 						</ul>
-						<span> © 2022 Spotify - Feito por <a href="https://www.linkedin.com/in/amanda-alcanjo/" class="">Amanda Alcanjo</a> </span>
+						<span> © 2022 Spotify Clone - Feito por <a href="https://www.linkedin.com/in/amanda-alcanjo/" class="">Amanda Alcanjo</a> </span>
 					</div>
 				</div>
 			</div>
