@@ -1,4 +1,4 @@
-# Spotify Clone 🎵
+# Spotify Clone 🎧
 Um projeto de clone front-end do site Spotify. O projeto foi criado usando componentes de css, js e web. 
 
 ## Preview Link
@@ -12,8 +12,7 @@ Um projeto de clone front-end do site Spotify. O projeto foi criado usando compo
 
 ## Layout 💗
 
-![SharedScreenshot](https://user-images.githubusercontent.com/81193788/188498018-a083db07-51c2-4864-8055-fece12768e08.jpg)
-
+![gif](https://user-images.githubusercontent.com/81193788/192603050-2feb79a9-e550-4307-84f2-36b841585bc0.gif)
 
 ## Autor: 
 [Amanda Alcanjo](https://portfolio-amandalcanjo.netlify.app/)
